@@ -8,14 +8,6 @@ npm run serve
 npm run build
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
-
 # dear-diary
 Small project to learn Vue SFC and Git while honing other languages
 * Interaction with GitHub and version control done fully with Git
