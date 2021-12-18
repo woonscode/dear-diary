@@ -44,17 +44,12 @@ import Post from './components/Post.vue'
 export default {
   data() {
     return {
-      Sameple: "E",
       new_subject: "",
       new_message: "",
       all_posts: []
     }
   },
-  computed: {
-    num_of_posts() {
-      return this.all_posts.length
-    }
-  },
+
   name: 'App',
   components: {
     Post
@@ -68,7 +63,7 @@ export default {
         let index_to_cut = current_date.indexOf("GMT")
         let formatted_date = current_date.substring(0, index_to_cut-1)
 
-        // Construct details into an object
+        // Construct object from input details
         let new_post = {
           subject: this.new_subject,
           message: this.new_message,
@@ -99,8 +94,5 @@ export default {
 }
 .accordion-button.collapsed {
   background-color: rgb(193, 255, 198);
-}
-.accordion-header {
-  background-color: seagreen
 }
 </style>

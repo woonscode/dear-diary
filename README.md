@@ -1,5 +1,5 @@
 # dear-diary
-Small project to learn Vue.js SFC and Git while practicing other skills
+Small personal project to learn Vue.js SFC and Git while practicing other relevant skills
 * Interaction with GitHub and version control done fully with Git
 * Environment setup done with Vue CLI
 
@@ -17,7 +17,7 @@ Run this command in the terminal:
 npm install
 ```
 
-This will install the dependencies needed, mainly 
+This will install the dependencies needed, mainly:
 
 ```
 "@popperjs/core": "^2.11.0",
