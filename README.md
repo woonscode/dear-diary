@@ -20,10 +20,10 @@ npm install
 This will install the dependencies needed, mainly:
 
 ```
-"@popperjs/core": "^2.11.0",
-"bootstrap": "^5.1.3",
-"core-js": "^3.6.5",
-"vue": "^3.0.0"
+"@popperjs/core": "^2.11.6",
+"bootstrap": "^5.2.1",
+"core-js": "^3.25.3",
+"vue": "^3.2.39"
 ```
 
 ### Features
